@@ -58,6 +58,7 @@ tests = \
 	gemmini_counter \
 	template \
 	ffn \
+	ffn_fused \
 
 tests_baremetal = $(tests:=-baremetal)
 
